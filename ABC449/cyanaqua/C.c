@@ -10,7 +10,7 @@ int main(void)
     scanf("%d %d %d", &stringLength, &leftBound, &rightBound);
     scanf("%s", string);
 
-    for(int i = 0; i < stringLength; i++)
+    for(int i = 0; i < stringLength - leftBound; i++)
     {
         for(int j = leftBound; j <= rightBound; j++)
         {
